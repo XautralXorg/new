@@ -1,0 +1,94 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 222,
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:talked_to_villager": 3,
+      "minecraft:time_since_rest": 2989,
+      "minecraft:walk_one_cm": 27295,
+      "minecraft:leave_game": 3,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 2822,
+      "minecraft:play_time": 30995,
+      "minecraft:damage_dealt": 136,
+      "minecraft:damage_absorbed": 660,
+      "minecraft:jump": 441,
+      "minecraft:time_since_death": 2984,
+      "minecraft:damage_dealt_absorbed": 8,
+      "minecraft:drop": 23,
+      "minecraft:sprint_one_cm": 48487,
+      "minecraft:open_chest": 9,
+      "minecraft:fall_one_cm": 16519,
+      "minecraft:total_world_time": 30995,
+      "minecraft:fly_one_cm": 71311,
+      "minecraft:walk_on_water_one_cm": 2009,
+      "minecraft:sneak_time": 7,
+      "minecraft:climb_one_cm": 12,
+      "minecraft:deaths": 2
+    },
+    "minecraft:used": {
+      "minecraft:trident": 1,
+      "minecraft:iron_spear": 6,
+      "minecraft:enchanted_golden_apple": 3,
+      "minecraft:totem_of_undying": 8,
+      "minecraft:bread": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:stone_shovel": 1,
+      "minecraft:iron_helmet": 1,
+      "minecraft:stone_sword": 2,
+      "minecraft:stone_hoe": 1,
+      "minecraft:iron_leggings": 1,
+      "minecraft:copper_boots": 2,
+      "minecraft:copper_chestplate": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:chainmail_boots": 1,
+      "minecraft:golden_helmet": 1,
+      "minecraft:gunpowder": 2,
+      "minecraft:copper_helmet": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:stone_pickaxe": 2,
+      "minecraft:chainmail_chestplate": 4,
+      "minecraft:tipped_arrow": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:trident": 1,
+      "minecraft:bread": 33,
+      "minecraft:stone_pickaxe": 2,
+      "minecraft:copper_helmet": 2,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:diamond": 18,
+      "minecraft:shield": 1,
+      "minecraft:chainmail_chestplate": 4,
+      "minecraft:iron_leggings": 1,
+      "minecraft:stone_hoe": 1,
+      "minecraft:iron_spear": 1,
+      "minecraft:copper_boots": 2,
+      "minecraft:golden_helmet": 1,
+      "minecraft:bow": 1,
+      "minecraft:stone_shovel": 1,
+      "minecraft:arrow": 64,
+      "minecraft:copper_chestplate": 1,
+      "minecraft:diamond_chestplate": 1,
+      "minecraft:chainmail_boots": 2,
+      "minecraft:enchanted_golden_apple": 5,
+      "minecraft:stone_sword": 2,
+      "minecraft:stone_axe": 1,
+      "minecraft:golden_leggings": 1,
+      "minecraft:gunpowder": 2,
+      "minecraft:iron_helmet": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 6,
+      "minecraft:tall_grass": 3,
+      "minecraft:wall_torch": 1
+    },
+    "minecraft:killed": {
+      "minecraft:pig": 1
+    }
+  },
+  "DataVersion": 4671
+}

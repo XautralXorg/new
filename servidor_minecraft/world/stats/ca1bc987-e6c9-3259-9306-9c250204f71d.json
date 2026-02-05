@@ -1,0 +1,70 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 1,
+      "minecraft:time_since_rest": 22118,
+      "minecraft:walk_one_cm": 80809,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 740,
+      "minecraft:play_time": 58196,
+      "minecraft:damage_dealt": 949,
+      "minecraft:jump": 205,
+      "minecraft:time_since_death": 22111,
+      "minecraft:drop": 11,
+      "minecraft:sprint_one_cm": 9904,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 2675,
+      "minecraft:total_world_time": 58196,
+      "minecraft:fly_one_cm": 102211,
+      "minecraft:walk_on_water_one_cm": 1516,
+      "minecraft:crouch_one_cm": 2829,
+      "minecraft:sneak_time": 1860,
+      "minecraft:climb_one_cm": 637,
+      "minecraft:deaths": 3,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:used": {
+      "minecraft:mycelium": 29,
+      "minecraft:netherite_sword": 13,
+      "minecraft:respawn_anchor": 6,
+      "minecraft:glowstone": 2,
+      "minecraft:end_crystal": 4,
+      "minecraft:ender_pearl": 3,
+      "minecraft:obsidian": 4,
+      "minecraft:cobblestone": 2,
+      "minecraft:pink_wool": 30
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:totem_of_undying": 1,
+      "minecraft:pink_banner": 1,
+      "minecraft:bread": 64,
+      "minecraft:diamond": 1,
+      "minecraft:golden_apple": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:pink_wool": 1,
+      "minecraft:dirt": 33,
+      "minecraft:cobblestone": 3,
+      "minecraft:obsidian": 2,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:spruce_door": 1,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:end_crystal": 1,
+      "minecraft:snowball": 16,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:torch": 2,
+      "minecraft:netherite_boots": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 2
+    },
+    "minecraft:killed": {
+      "minecraft:villager": 1
+    }
+  },
+  "DataVersion": 4671
+}

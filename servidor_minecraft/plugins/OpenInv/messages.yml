@@ -1,0 +1,51 @@
+# OpenInv Messages Configuration
+
+prefix: "&8[&bOpenInv&8] &7"
+
+# General messages
+no-permission: "&cYou don't have permission to do that."
+player-not-found: "&cPlayer not found."
+player-offline: "&cThat player is offline."
+inventory-not-found: "&cInventory not found."
+invalid-inventory: "&cInvalid inventory type."
+
+# Command messages
+command:
+  reload:
+    success: "&aConfiguration reloaded successfully."
+    error: "&cError reloading configuration: {error}"
+  open:
+    success: "&aOpened {player}'s inventory."
+    self: "&cYou cannot open your own inventory this way."
+  save:
+    success: "&aInventory saved successfully."
+    error: "&cError saving inventory: {error}"
+  restore:
+    success: "&aInventory restored successfully."
+    error: "&cError restoring inventory: {error}"
+  history:
+    header: "&6Inventory History for {player}:"
+    entry: "&7- {date}: {reason}"
+    empty: "&7No history found."
+  clear:
+    success: "&aInventory cleared successfully."
+    confirm: "&cAre you sure you want to clear this inventory? Type /openinv clear confirm"
+
+# Event messages
+event:
+  inventory-modified: "&aInventory modified and saved."
+  inventory-restored: "&aInventory restored to previous state."
+  inventory-saved: "&aInventory saved successfully."
+  offline-inventory-update: "&eYour inventory was updated by an admin while you were offline."
+  offline-enderchest-update: "&eYour ender chest was updated by an admin while you were offline."
+
+# Error messages
+error:
+  generic: "&cAn error occurred: {error}"
+  invalid-player: "&cInvalid player name."
+  invalid-world: "&cInvalid world."
+  world-not-loaded: "&cWorld is not loaded."
+  inventory-in-use: "&cThat inventory is currently being viewed by another player."
+  save-failed: "&cFailed to save inventory: {error}"
+  load-failed: "&cFailed to load inventory: {error}"
+  database-error: "&cDatabase error: {error}"

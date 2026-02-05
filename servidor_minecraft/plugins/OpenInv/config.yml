@@ -1,0 +1,95 @@
+# OpenInv Configuration
+
+# Enable debug logging
+debug: false
+
+# Enable metrics collection
+metrics: true
+
+# Enable update checks
+update-checks: true
+
+# Maximum number of inventory history entries to keep per player
+history-limit: 10
+
+# Enable automatic cleanup of old inventory history
+auto-cleanup: true
+
+# Interval in seconds for cleanup (default: 1 hour)
+cleanup-interval: 3600
+
+# Save player inventories when they quit
+save-on-quit: true
+
+# Permission settings
+permissions:
+  use-vault: true
+  default-group: "default"
+
+# Storage settings
+storage:
+  type: "sqlite"
+  sqlite:
+    filename: "database.db"
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "openinv"
+    username: "root"
+    password: ""
+    table-prefix: "openinv_"
+    use-ssl: false
+
+# Performance settings
+performance:
+  cache-duration: 300
+  async-loading: true
+
+messages:
+  admin_welcome_enabled: true
+
+gui-settings:
+  inventory:
+    title: "§eEditing: §b%player%"
+    size: 54
+    slots:
+      main: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      armor: [47, 48, 49, 50]
+      filler: [36, 37, 38, 39, 40, 41, 42, 43, 44, 51, 52]
+      offhand: 53
+    buttons:
+      clear: 45
+      close: 46
+  enderchest:
+    title: "§5Ender Chest: §b%player%"
+    size: 36
+    slots:
+      main: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      filler: [27, 28, 29, 30, 32, 33, 34, 35]
+    buttons:
+      close: 31
+
+logging:
+  enabled: true
+  format: "[%time%] %admin% %action% %target%'s inventory"
+  destinations: [console, file]
+
+# Automatic inventory saving system (requires MySQL/SQLite)
+auto-save-inventory:
+  enabled: true
+  interval-minutes: 10
+  max-snapshots: 3
+  notify-on-save: false
+  log-to-console: true
+
+# Death inventory snapshots (requires MySQL/SQLite)
+death-snapshots:
+  enabled: true
+  max-snapshots: 5
+  log-to-console: true
+
+notify:
+   offline-update:
+      inventory: true
+      enderchest: true
+history-size: 10

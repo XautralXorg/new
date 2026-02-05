@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:chicken": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:totem_of_undying": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 5823,
+      "minecraft:walk_one_cm": 4858,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 5823,
+      "minecraft:damage_dealt": 40,
+      "minecraft:jump": 153,
+      "minecraft:time_since_death": 5823,
+      "minecraft:sprint_one_cm": 7060,
+      "minecraft:fall_one_cm": 675,
+      "minecraft:total_world_time": 5823,
+      "minecraft:fly_one_cm": 64871,
+      "minecraft:crouch_one_cm": 3,
+      "minecraft:sneak_time": 163
+    }
+  },
+  "DataVersion": 4671
+}
